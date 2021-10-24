@@ -23,7 +23,7 @@ flex: 288px;
 width: 288px;
 background-color: #fff;
 height: calc(100vh - 100px);
-transform: ${({ value }) => value ? "translateY(0)" : "translateY(95%)"};
+transform: ${({ value }) => value ? "translateY(0)" : "translateY(94.2%)"};
 border-top-left-radius: 0.8rem;
 border-top-right-radius: 0.8rem;
 transition:all .3s ease-in-out ;
@@ -34,7 +34,7 @@ transition:all .3s ease-in-out ;
 
 }
 @media (max-width:1000px) and (max-width:768px){
-    transform: ${({ value }) => value ? "translateY(0)" : "translateY(95%)"};
+    transform: ${({ value }) => value ? "translateY(0)" : "translateY(94.2%)"};
     
 
 }
