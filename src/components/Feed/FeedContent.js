@@ -17,7 +17,6 @@ const FeedContent = () => {
 export default FeedContent
 
 const Container = styled.div`
-/* text-align: center; */
 max-width: 1128px;
 margin-left: auto;
 margin-right: auto;

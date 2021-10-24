@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { ArtCard } from '../GlobalStyles/ArtcardStyle'
-import { ButtonContainer, Recent } from './CommunityCardStyle';
+import { ButtonContainer, CardHeading } from './CommunityCardStyle';
 
 import CommnunityData from './CommunityData';
 
@@ -13,7 +13,7 @@ const Communitycard = () => {
                     CommnunityData.map((items) => {
                         const { title, icon, List, id, color } = items;
                         return (
-                            <Recent key={id} color={color}>
+                            <CardHeading key={id} color={color}>
                                 <section>
                                     <header>
                                         <h4><span>{title}</span></h4>
@@ -42,7 +42,7 @@ const Communitycard = () => {
                                         })
                                     }
                                 </ul>
-                            </Recent>
+                            </CardHeading>
                         )
                     })
                 }

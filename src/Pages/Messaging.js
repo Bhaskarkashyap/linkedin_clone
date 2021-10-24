@@ -1,11 +1,14 @@
 import React from 'react'
+import { Heading } from '../components/GlobalHeadingStyle'
 import Layout from '../Layout'
 
 const Messaging = () => {
     return (
         <Layout>
-            This Is Messaging Page
+           <Heading>
+           This Is Messaging Page
 
+           </Heading>
         </Layout>
     )
 }

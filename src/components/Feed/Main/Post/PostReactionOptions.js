@@ -24,13 +24,13 @@ export default PostReactionOptions
 
 
 const PostReactionOption = styled.div`
-/* display: flex;
+ display: flex;
 align-items: center;
 justify-content: center;
 min-height: 40px;
 padding: 4px 8px;
 flex-wrap: wrap;
-box-sizing: border-box; */
+box-sizing: border-box; 
 flex: 1;
 
 span{

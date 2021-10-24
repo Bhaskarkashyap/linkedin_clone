@@ -6,7 +6,7 @@ const AddCard = () => {
     return (
         <ArtCard>
             <Header>
-                <p>Ad ...</p>
+                <p>Ad...</p>
             </Header>
 
             <CenterContent>
@@ -15,9 +15,6 @@ const AddCard = () => {
                     <UserImage>
                         <img src="/images/user.svg" alt="" />
                     </UserImage>
-                    {/* <KeyImage>
-                        <img src="https://media-exp1.licdn.com/dms/image/C4D0EAQEmGCPEhGP1cQ/rightRail-logo-shrink_200_200/0/1631000788874?e=1634230800&v=beta&t=OZdA06LAEpzmGKwj1jfcRUZ_iTIO9jl1AH4dg4_i7x0" alt="" />
-                    </KeyImage> */}
                 </div>
                 <h2>UserName, unlock access to Linkedin Learning</h2>
 
@@ -81,8 +78,3 @@ img{
     height: 80px;
 }
 `
-// const KeyImage = styled.div`
-// img{
-//     height: 80px;
-// }
-// `

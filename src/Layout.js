@@ -20,4 +20,5 @@ export default Layout
 const Container = styled.div`
 padding-top: 52px;
 margin-top: 40px;
+
 `;

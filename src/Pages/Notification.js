@@ -1,12 +1,15 @@
 import React from 'react'
+import { Heading } from '../components/GlobalHeadingStyle'
 import Layout from '../Layout'
 
 const Notification = () => {
     return (
         <Layout>
 
-            This IS Notification Page
+          <Heading>
+          This IS Notification Page
 
+          </Heading>
         </Layout>
     )
 }
